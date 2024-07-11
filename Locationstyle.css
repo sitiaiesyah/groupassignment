@@ -1,0 +1,71 @@
+h1
+{
+  text-align: center;
+  color: white;
+}
+
+table, tr, th
+{
+  text-align: center;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+table.center
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+main 
+{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.header
+{
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: orange;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo
+{
+  font-size: 50px;
+  color: brown;
+  text-decoration: none;
+  font-weight: 700;
+  font-style: oblique;
+}
+body
+{
+  margin: 0px ;
+  min-height: 100vh;
+  background-color:bisque;(240, 132, 0):(233, 101, 53);(202, 131, 0);
+}
+.navbar a
+{
+  position: relative;
+  font-size: 20px;
+  color:brown;
+  font-weight: 300;
+  text-decoration: none;
+  margin-left: 40px;
+}
+.navbar a::before
+{
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: brown;
+  transition: .3s;
+}
+.navbar a:hover::before
+{
+  width: 100px;
+
+}
